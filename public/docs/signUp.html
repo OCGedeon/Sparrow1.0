@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    SPARROW Signup
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <link href="../assets/css/black-dashboard.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="../assets/video/output_free.mp4" allowfullscreen></iframe>
+  </div>
+  <form id="signuptoday" name="signuptoday" method="post" action="/signup/newuser"></form>
+    <div class="signuptoday">
+      <h1>Join the Community Today!</h1>
+    </div>
+
+  <form id="signup" name="signup" method="post" action="/signup/newuser">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="title">Create Profile</h5>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-4 pr-md-1">
+                    <div class="form-group">
+                      <label>Username</label>
+                      <input type="text" class="form-control" placeholder="Username" name="username">
+                    </div>
+                  </div>
+                  <div class="col-md-4 pl-md-1">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email Address</label>
+                      <input type="email" class="form-control" placeholder="john.doe@gmail.com" name="email">
+                    </div>
+                  </div>
+                  <div class="col-md-4 pl-md-1">
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input name="password" type="password" class="form-control" name="password" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 pr-md-1">
+                    <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" class="form-control" placeholder="First Name" name="firstname">
+                    </div>
+                  </div>
+                  <div class="col-md-6 pl-md-1">
+                    <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" class="form-control" placeholder="Last Name" name="lastname">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label>Address</label>
+                      <input type="text" class="form-control" placeholder="Home Address">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 pr-md-1">
+                    <div class="form-group">
+                      <label>City</label>
+                      <input type="text" class="form-control" placeholder="City">
+                    </div>
+                  </div>
+                  <div class="col-md-4 px-md-1">
+                    <div class="form-group">
+                      <label>Country</label>
+                      <input type="text" class="form-control" placeholder="Country">
+                    </div>
+                  </div>
+                  <div class="col-md-4 pl-md-1">
+                    <div class="form-group">
+                      <label>Postal Code</label>
+                      <input type="number" class="form-control" placeholder="ZIP Code">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="form-group">
+                      <label>About Me</label>
+                      <textarea rows="4" cols="80" class="form-control" placeholder="Tell us a bit about yourself"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer">
+              <button type="submit" class="btn btn-fill btn-primary" id="addNewUser">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <footer class="footer">
+    <div class="container-fluid">
+      <ul class="nav">
+      </ul>
+      <div class="copyright">
+        ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script> made with <i class="tim-icons icon-heart-2"></i> by
+        <a href="javascript:void(0)" target="_blank">Team Sparrow</a> for a more productive life.
+      </div>
+    </div>
+  </footer>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/black-dashboard.min.js"></script>
+  <script src="../assets/js/signup.js"></script>
+
+</body>
+
+</html>
